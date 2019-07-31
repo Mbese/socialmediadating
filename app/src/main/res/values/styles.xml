@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+        <style name="SBG.TabLayout" parent="Widget.Design.TabLayout">
+            <item name="tabIndicatorColor">@color/colorPrimaryDark</item>
+            <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+            <item name="tabBackground">?attr/selectableItemBackground</item>
+            <item name="tabTextAppearance">@style/SBG.TabLayout.TabTextAppearance</item>
+            <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>
+        </style>
+
+        <style name="SBG.TabLayout.TabTextAppearance" parent="TextAppearance.Design.Tab">
+            <item name="android:textSize">@dimen/medium_font</item>
+            <item name="android:textColor">@color/colorPrimary</item>
+            <item name="textAllCaps">true</item>
+        </style>
+
+    <dimen name="medium_font">16sp</dimen>
+    <dimen name="tab_indicator_height">3dp</dimen>
+</resources>

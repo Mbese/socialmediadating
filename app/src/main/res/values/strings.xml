@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SocialMediaApp</string>
+    <string name="new_user_register_here">New user? Register here</string>
+    <string name="already_registered_sign_in_here">Already registered? sign in here</string>
+</resources>
